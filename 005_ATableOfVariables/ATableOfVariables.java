@@ -9,19 +9,19 @@ public class ATableOfVariables
         int rowFourColumnTwo = 16;
         // this was the first highlited column, so every squared result is up there, callign it set A^^^
 
-        // SET B
+        // SET B:
         int rowOneColumnThree = 1;
         int rowTwoColumnThree = 8;
         int rowThreeColumnThree = 27;
         int rowFourColumnThree = 64;
         // ^^^  this is the lsit of all the results after the row numbers were cubed, calling it set B^^
 
-        // SET A AND SET B PRTINED BELOW
+        // SET A PRINTED
         System.out.println(rowOneColumnTwo);
         System.out.println(rowTwoColumnTwo);
         System.out.println(rowThreeColumnTwo);
         System.out.println(rowFourColumnTwo);
-       // end set a print begin set b print
+       // end set a print BEGIN SET B PRINT:
         System.out.println(rowOneColumnThree);
         System.out.println(rowTwoColumnThree);
         System.out.println(rowThreeColumnThree);
