@@ -6,3 +6,12 @@ public class NameConcatenation
         System.out.println("My " + "name " + "is " + "Kat " + " Nelson");
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
