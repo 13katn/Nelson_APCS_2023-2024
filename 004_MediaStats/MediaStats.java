@@ -18,3 +18,12 @@ public class MediaStats
         System.out.println("The book Faith Hope and Carnage was released in " + faithHopeAndCarnargeReleaseYear + ", and has " + faithHopeAndCarnargePages + " pages." );
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
