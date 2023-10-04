@@ -23,7 +23,7 @@ public class AreasOfRectangles
     double rec2AreaInCentimeters = rec2Width * rec2Length;
     double rec3AreaInCentimeters = (rec3Width * inchesToCm) * rec3Length;
     double rec4AreaInCentimeters = rec4Width * (rec4Length/inchesToCm) ;
-    double rec5AreaInYards = (rec5Width/cmToYards) * rec5Length; 
+    double rec5AreaInYards = (rec5Width/cmToYards) * rec5length; 
     System.out.println("The areas of rectangle 1, 2, 3, 4, and 5, are " + rec1AreaInInches + "," + rec2AreaInCentimeters + "," + rec3AreaInCentimeters + "," + rec4AreaInCentimeters + ", and " + rec5AreaInYards + " respectively.");
     }
 }
