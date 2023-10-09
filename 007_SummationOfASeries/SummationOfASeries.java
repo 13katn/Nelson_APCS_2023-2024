@@ -13,6 +13,7 @@ public class SummationOfASeries
     int varNine = 9;
     int varTotal = varOne + varTwo + varThree + varFour + varFive + varSix + varSeven + varEight + varNine;
     System.out.println("The sum of 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 is " + varTotal);
+    // adds them all up at end
     }
 }
 
