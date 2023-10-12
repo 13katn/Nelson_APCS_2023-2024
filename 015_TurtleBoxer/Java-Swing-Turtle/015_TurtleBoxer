@@ -1,0 +1,23 @@
+import javax.swing;
+import java.awt.event;
+import java.util;
+import java.awt;
+
+public class TurtleBoxer
+{
+    public static void main(String[]args)
+    {
+        World size = new World(220,220);
+        Turtle turtleBob = new Turtle(size);
+
+        turtleBob.forward();
+        turtleBob.turnRight();
+        turtleBob.forward();
+        turtleBob.turnLeft();
+        turtleBob.forward();
+        turtleBob.turnRight();
+        turtleBob.forward();
+
+        size.show(true);
+    }
+}
