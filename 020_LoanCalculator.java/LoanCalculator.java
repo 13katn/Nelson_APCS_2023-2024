@@ -11,14 +11,14 @@ public class LoanCalculator{
         principalBalance = scan.nextDouble();
 
         System.out.println("What is your Annual Interest Rate? ");
-        annualInterestRate = scan.nextDouble();6
+        annualInterestRate = scan.nextDouble();
     
 
         System.out.println("What is your Monthly Remaining Payments? ");
         monthlyAnnualPayments = scan.nextDouble();
 
-        double monthlyInterest = principalBalance * (annualInterestRate/monthlyAnnualPayments);
-        double monthlyPayment = principalBalance/monthlyAnnualPayments + monthlyAnnualPayments;
+        double monthlyInterest = principalBalance * (annualInterestRate/monthlyAnnualPayments); //have to declare double
+        double monthlyPayment = principalBalance/monthlyAnnualPayments + monthlyAnnualPayments; // have to redeclare double 
         System.out.println("Your monthly Interest is " + monthlyInterest + ". And your monthly intererst is " + monthlyPayment);
         scan.close();
     }
