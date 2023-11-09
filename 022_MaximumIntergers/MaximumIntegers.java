@@ -3,7 +3,7 @@ public class MaximumIntegers {
         Integer y = 0;
         int Maximum = y.MAX_VALUE;
         int Minimum = 745;
-        //double randomNumber = (Math.random());
+        //double randomNumber = (Math.random()); <---- unnnecessary
 
         // System.out.println(y.MAX_VALUE);
         // System.out.println(y.MIN_VALUE);

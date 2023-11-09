@@ -11,7 +11,12 @@ public class CarAge{
 
     int thisYear = 2023;
 
-    System.out.println(calc.integerAdder(thisYear, mazda.year));
+    // x = 2023 which os the current year and Y equals the year of the car im choosing 
 
-    }
+    System.out.println(calc.integerSubtractor(thisYear, mazda.year));
+    System.out.println(calc.integerSubtractor(thisYear, mazdaSportsCar.year));
+    System.out.println(calc.integerSubtractor(thisYear, bmwCar.year));
+    System.out.println(calc.integerSubtractor(thisYear, fordCar.year));
+    System.out.println(calc.integerSubtractor(thisYear, subaruCar.year));
+}
 }
