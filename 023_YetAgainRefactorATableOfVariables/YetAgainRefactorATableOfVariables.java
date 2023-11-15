@@ -22,8 +22,8 @@ public class YetAgainRefactorATableOfVariables
         double answer = Math.pow(numberChosen, expSquare);
         System.out.println(answer);
         scan.close();
-        }   
-    }
+    }   
+}
         // RESULT OF THE FIRST COLUMN IN YELLOW:
         //int rowOneColumnTwo = rowOneColumnOne * rowOneColumnOne;
         //int rowTwoColumnTwo = rowTwoColumnOne * rowTwoColumnOne;
