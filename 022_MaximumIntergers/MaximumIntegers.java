@@ -18,3 +18,12 @@ public class MaximumIntegers {
 //2147483647 - x = 1,000,000 
 // x = 2146483647
 // ^^ for max. number that will make 21474483647 minus x = 1,000,000
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
