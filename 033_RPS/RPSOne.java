@@ -28,6 +28,7 @@ public class RPSOne {
         }
 
         rps(game, lose);
+
         /// this IS my code -- i know it looks wierd but thats because i wrote this in python last year, and just changed it myself to java !! 
     }
 }
