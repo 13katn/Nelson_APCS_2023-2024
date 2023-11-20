@@ -63,3 +63,15 @@ public class ReturningCalculator
         return x/y;
     }
 }
+
+/*
+
+This was supposed to be made in different classes, I'm going to let this play for now, but 
+it'll be critical in the future.
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
