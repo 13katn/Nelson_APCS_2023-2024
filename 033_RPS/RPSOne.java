@@ -33,3 +33,24 @@ public class RPSOne {
     }
 }
 
+/*
+
+Kat,
+
+I'm going to be completely honest here. I started reading this and I went,
+"What the ____!? I did not expect Kat to cheat! Seriously!?"
+
+Then I did a few Googles. Then I came back to your code. Then I saw your comment.
+
+Honestly? I believe you. I was thinking that we'd have a rough conversation about this after break,
+but that comment and my trust in your makes me believe you 100%.
+
+Good for you for figuring this out in this manner. Bravo. I'd look up the clap emoji, but
+I'm in the middle grading and I'm fried. Imagine it.
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
