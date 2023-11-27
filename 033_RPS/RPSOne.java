@@ -37,7 +37,7 @@ public class RPSOne {
 
 Kat,
 
-I'm going to be completely honest here. I started reading this and I went,
+I'm going to be completely honest here. I started reading the code and I went,
 "What the ____!? I did not expect Kat to cheat! Seriously!?"
 
 Then I did a few Googles. Then I came back to your code. Then I saw your comment.
