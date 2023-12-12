@@ -3,6 +3,7 @@ public class VariousCounters
     public static void main(String args[])
     {
         int i=0;
+        // vairables for first cycle ^^
         System.out.println("cpounting one to one hundred:");
         while(i<= 100)
         {
@@ -12,6 +13,7 @@ public class VariousCounters
 
     int endPoint = 2000007;
     int startingPoint = 103437;
+    // vairables for second cycle ^^
     while (startingPoint < endPoint){
         if (startingPoint % 7 ==0){
            System.out.println(startingPoint);
@@ -21,7 +23,7 @@ public class VariousCounters
 
     int numberCycleStart= 1000;
     int numberCycleEnd= 2000;
-    
+    // vairables for last cycle ^^
     while(numberCycleStart<numberCycleEnd)
     {
         System.out.println(numberCycleStart);
