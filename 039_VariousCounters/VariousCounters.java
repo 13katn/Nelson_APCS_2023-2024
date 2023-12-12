@@ -18,8 +18,25 @@ public class VariousCounters
         }
         startingPoint ++;
         }
+
+    int numberCycleStart= 1000;
+    int numberCycleEnd= 2000;
+    
+    while(numberCycleStart<numberCycleEnd)
+    {
+        System.out.println(numberCycleStart);
+        numberCycleStart+=7;
+        System.out.println(numberCycleStart);
+        numberCycleStart-=3;
+        System.out.println(numberCycleStart);
+        numberCycleStart+=11;
+        System.out.println(numberCycleStart);
+        numberCycleStart-=2;
+        System.out.println(numberCycleStart);
+
     }
     }
+}
 
 //while(103436<= i && i=<2000007);
 
