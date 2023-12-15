@@ -17,6 +17,11 @@ public class SimpleCounterButAForLoop
          {
              System.out.println(i);
          }
+         // coutnign down 
+         for(int i = 5325; i > 4798; i--)
+        { 
+            System.out.println(i);
+        }
          
         }
     }
