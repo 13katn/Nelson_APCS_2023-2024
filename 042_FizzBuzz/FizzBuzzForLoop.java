@@ -33,3 +33,11 @@ Scanner scan= new Scanner(System.in);
     }
 }
 
+/*
+
+1/1 - Compiles
+0/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
