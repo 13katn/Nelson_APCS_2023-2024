@@ -39,3 +39,12 @@ public class SimpleCounterButAForLoop
 //         System.out.println(i);
 //         //Adds the numbers to the list
 //         numberList.add(i);      
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

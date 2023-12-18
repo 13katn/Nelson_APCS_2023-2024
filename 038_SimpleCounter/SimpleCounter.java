@@ -25,3 +25,12 @@ while (i< num) {
        // {
        //     System.out.println("Counting to: " + i);
        //  }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
