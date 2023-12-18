@@ -30,6 +30,25 @@ public class FizzBuzzWhileLoop {
             {
                 System.out.println(startPoint);
             }
+            //  if (startPoint% 3==0 && startPoint % 5==0)
+            //{
+            //     System.out.println("FizzBuzz");
+            // }
+            //
+            //else(startPoint % 3== 0)
+            // {
+            //     System.out.println("Fizz");
+            // }
+            // else (startPoint % 5== 0)
+            // {
+            //     System.out.println("Buzz");
+            // }
+
+            // }
+            // else if
+            // {
+            //     System.out.println(startPoint);
+            // }
             scan.close();
         }
     }
