@@ -14,20 +14,19 @@ public class FizzBuzzWhileLoop {
         int startPoint = 1;
         int endPoint = fizzNum;
         while(startPoint < endPoint){
-            if(startPoint % 3== 0)
-            {
-                System.out.println("Fizz");
+            if (startPoint % 3 == 0) {
+                if (startpoint % 5 == 0) {
+                    System.out.println("fizzbuzz");
+                }
+                else{
+                    System.out.println("fizz");
+                }
+            } else if (startpoint % 5 == 0 ) {
+               System.out.println("Buzz");
             }
-            else if(startPoint % 5== 0)
-            {
-                System.out.println("Buzz");
-            }
-            else if(startPoint% 3==0 && startPoint % 5==0)
-            {
-                System.out.println("FizzBuzz");
-            }
-            else
-            {
+          
+           // else
+           // {
                 System.out.println(startPoint);
             }
             scan.close();
