@@ -45,3 +45,13 @@ public class CommonDigit {
 
         }
 }
+
+/*
+
+0/1 - Compiles
+-I think it's there, but it doesn't compile.
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
