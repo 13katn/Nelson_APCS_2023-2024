@@ -1,14 +1,61 @@
 public class PowerAttackk
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-        int dSixMax = 6;
-        int dSixMin = 1;
-        int dSixRange = dSixMax - dSixMin + 1;
-        int dSixRand = (int) (Math.random() * dSixRange + dSixMin + 3);
-        System.out.print(dSixRand);
+    int characterStrength= 3;
+    int attack= (int)(Math.random()*10+1); 
+    int monsterHitPoints=13;
+    int monsterArmorClass= 11;
+    int weaponDamage= (int)((Math.random()*2))+ 4;
+    //int attackDamage=(characterStrength+attack)-monsterArmorClass;
+    //int actualHit= (weaponDamage+attackDamage)-monsterHitPoints;
+
+
+    while(attack>0)
+    {
+    if(characterStrength+attack>=monsterArmorClass) // if random roll 1-10 plus three is greater than or equal to 11 you killed the monster
+    {
+      System.out.println("Thats a hit!");
+      int attackDamage=(characterStrength+attack)-monsterArmorClass;
+      int actualHit= (weaponDamage+attackDamage)-monsterHitPoints;
+      System.out.println("You have damaged the monster for "+ attackDamage + " points."); 
+      System.out.print("The monsters health is " + actualHit); 
+                                                          
     }
-}
+    else 
+    {
+      System.out.println("That's a miss,reroll and try agian ");
+    }
+    }
+    }
+    
+    }
+
+ }
+
+
+
+
+
+
+// public class PowerAttackk
+// {
+//     public static void main(String args[])
+//     // {
+//     //     int dSixMax = 6;
+//     //     int dSixMin = 1;
+//     //     int dSixRange = dSixMax - dSixMin + 1;
+//     //     int dSixRand = (int) (Math.random() * dSixRange + dSixMin + 1);
+
+//     //     System.out.print(dSixRand);
+//     int characterStrength = 3;
+//     int attackNum = (int)(Math.random()*10+1);
+//     int monsterArmorClass = 11;
+//     int weaponDamage = (int)((Math.random()*2))+4;
+//     int attackDamage = (characterStrength + attackNum) - monsterArmorClass;
+//     int actualHit = (weaponDamage)
+//     }
+// }
 
 
       
