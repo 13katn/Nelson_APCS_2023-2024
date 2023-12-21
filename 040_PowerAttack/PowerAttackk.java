@@ -3,35 +3,43 @@ public class PowerAttackk
     public static void main(String[] args)
     {
     int characterStrength= 3;
-    int attack= (int)(Math.random()*10+1); 
+
     int monsterHitPoints=13;
     int monsterArmorClass= 11;
-    int weaponDamage= (int)((Math.random()*2))+ 4;
+    int weaponDamage= (int)((Math.random()*(6-4+1))+ 4);
     //int attackDamage=(characterStrength+attack)-monsterArmorClass;
     //int actualHit= (weaponDamage+attackDamage)-monsterHitPoints;
 
 
-    while(attack>0)
+    while(monsterHitPoints>0)
     {
-    if(characterStrength+attack>=monsterArmorClass) // if random roll 1-10 plus three is greater than or equal to 11 you killed the monster
-    {
-      System.out.println("Thats a hit!");
-      int attackDamage=(characterStrength+attack)-monsterArmorClass;
-      int actualHit= (weaponDamage+attackDamage)-monsterHitPoints;
-      System.out.println("You have damaged the monster for "+ attackDamage + " points."); 
-      System.out.print("The monsters health is " + actualHit); 
-                                                          
-    }
-    else 
-    {
-      System.out.println("That's a miss,reroll and try agian ");
-    }
-    }
-    }
-    
-    }
+      int attack= (int)(Math.random()*10+1); 
+      if(characterStrength+attack>=monsterArmorClass) // if random roll 1-10 plus three is greater than or equal to 11 you killed the monster
+      {
+       System.out.println("Thats a hit!");
+       int attackDamage=(characterStrength+attack)-monsterArmorClass;
+        // int actualHit= monsterHitPoints - (weaponDamage+attackDamage);
+         monsterHitPoints = monsterHitPoints- weaponDamage;
 
- }
+       System.out.println("You have damaged the monster for "+ attackDamage + " points."); 
+       System.out.println("The monsters health is " + monsterHitPoints); 
+
+                                                          
+       }
+       else 
+       {
+        System.out.println("That's a miss, you rolled a " + weaponDamage + " reroll and try agian ");
+      }
+
+      if (monsterHitPoints <= 0)
+      {
+        System.out.println(" the mosnter is dead yay");
+      }
+    }
+    }
+}
+
+
 
 
 
