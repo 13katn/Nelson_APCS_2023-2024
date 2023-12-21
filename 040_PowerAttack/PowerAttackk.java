@@ -20,18 +20,18 @@ public class PowerAttackk
        int attackDamage=(characterStrength+attack)-monsterArmorClass;
         // int actualHit= monsterHitPoints - (weaponDamage+attackDamage);
          monsterHitPoints = monsterHitPoints- weaponDamage;
+         // no int because mosnter hit points has already been instantiated 
 
        System.out.println("You have damaged the monster for "+ attackDamage + " points."); 
        System.out.println("The monsters health is " + monsterHitPoints); 
 
-                                                          
        }
        else 
        {
         System.out.println("That's a miss, you rolled a " + weaponDamage + " reroll and try agian ");
       }
 
-      if (monsterHitPoints <= 0)
+      if (monsterHitPoints <= 0) // this is so if you roll / reroll high enough that the mosnters health is subtracted to zero
       {
         System.out.println(" the mosnter is dead yay");
       }
