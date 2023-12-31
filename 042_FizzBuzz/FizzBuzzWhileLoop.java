@@ -1,36 +1,34 @@
-
 import java.util.Scanner;
-
-public class FizzBuzzWhileLoop {
-
-    public static void main(String[] args){
-        
-        Scanner scan = new Scanner(System.in);
-            int fizzNum = 0;
-
-        System.out.println("insert a number you want to play fizzbuzz until: ");
-            fizzNum = scan.nextInt();
-
-        int startPoint = 1;
-        int endPoint = fizzNum;
-        while(startPoint < endPoint){
-            if (startPoint % 3 == 0) {
-                if (startpoint % 5 == 0) {
-                    System.out.println("fizzbuzz");
-                }
-                else{
-                    System.out.println("fizz");
-                }
-            } else if (startpoint % 5 == 0 ) {
-               System.out.println("Buzz");
+public class FizzBuzzWhileLoop
+{
+    public static void main(String[] args)
+    {
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Pick a number for fizzbuzz to end at: ");
+        int i= 0;
+        i= scan.nextInt();
+        int startingCount= 0;
+         
+        while(startingCount<=i)
+        {
+            startingCount++;
+            if(startingCount % 3==0 && startingCount % 5==0)
+            // HAVE TO PUT FIZZBUZZ FIRST BC WHILE LOOP RUNS FIRST TRUE NOT ALL TRUE.. 
+            {
+                System.out.println("Fizz");
             }
-          
-           // else
-           // {
-                System.out.println(startPoint);
+            else if(startingCount % 5== 0)
+            {
+                System.out.println("Buzz");
             }
-            scan.close();
+            else if(startingCount % 3== 0)
+            {
+                System.out.println("FizzBuzz");
+            }
+            else
+            {
+                System.out.println(startingCount);
+            }
         }
     }
 }
-        
