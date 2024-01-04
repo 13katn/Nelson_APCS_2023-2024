@@ -8,13 +8,20 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     Random card = new Random();
 
+<<<<<<< HEAD
 // creating random cards below 
 
+=======
+>>>>>>> 321e7a632ca092d9ec7f21245b7f38b5f972ce7b
     int cardValue = (int)(Math.Random() * 13 );
     int cardValueTwo = (int)(Math.Random () * 13 );
     int cardValueThree = (int)(Math.Random() *13 );
    
+<<<<<<< HEAD
     //dealing cards below
+=======
+    //dealing plyer cards 
+>>>>>>> 321e7a632ca092d9ec7f21245b7f38b5f972ce7b
 
     System.out.print("your firts card is " + cardValue ) ;
     System.out.println( "your second card value is " + cardValueTwo );
@@ -22,7 +29,11 @@ public static void main(String[] args) {
      int cardTotal = cardValue + cardValueTwo ; 
      int cardtotalTwo = cardValue + cardValueTwo + cardValueThree ; 
         
+<<<<<<< HEAD
    
+=======
+    // players two cards with card totat
+>>>>>>> 321e7a632ca092d9ec7f21245b7f38b5f972ce7b
 
 
        System.out.println("First Cards: " + cardValue + ", " + cardValueTwo);
@@ -38,7 +49,11 @@ if ( hit);
     System.out.print( cardtotalTwo);
 } 
 
+<<<<<<< HEAD
     // setting each number to a card value 
+=======
+    
+>>>>>>> 321e7a632ca092d9ec7f21245b7f38b5f972ce7b
  if (Math.Random = 1)
     {
         System.out.println("your card is ace and the value is 1 ");
@@ -79,6 +94,7 @@ if ( hit);
     {
         System.out.println( "your card value is 10" );
      }
+<<<<<<< HEAD
     else if( Math.Random = 11 )
     {
         System.out.println( "your card value is a queen" );
@@ -91,3 +107,10 @@ if ( hit);
 
         }
     }
+=======
+
+
+ 
+    }
+}
+>>>>>>> 321e7a632ca092d9ec7f21245b7f38b5f972ce7b
