@@ -4,7 +4,7 @@ public class LoopYourName
     {
         String MyName = "Kat";
 
-        for(int i = 0; i < MyName.legnth(); i++)
+        for(int i = 0; i < MyName.length(); i++)
         // is 0 < MyName --> yes so print out variable my name. i++ equals i (which is 0) plus one so now were at one which is the K, and so on and so forth
         // my comment is so in depth becuase i wathced the video and i understand it now but feel like id forget if i came back t this in a month 
         {
