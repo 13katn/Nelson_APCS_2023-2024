@@ -1,4 +1,4 @@
-public class PenInAHandUno{
+public class pen{
     public class Pen {
 
     static String inkColor = "black";
