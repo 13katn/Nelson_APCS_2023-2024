@@ -1,4 +1,4 @@
-public class HelloWorldButAMethod{
+public class HelloWordButAMethod{
     public static void helloWorld(){
         System.out.println("Hello World");
     }
