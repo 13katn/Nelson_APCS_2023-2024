@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DivisibleInRange {
+public class DivisbleInRange {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -12,6 +12,8 @@ public class DivisibleInRange {
 
         System.out.println("Pick an integer you want to divide by: ");
         int divideBy = scan.nextInt();
+
+        scan.close();
 
         int startCount = 0;
 

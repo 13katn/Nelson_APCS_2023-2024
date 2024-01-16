@@ -19,7 +19,7 @@ public class AbecedarianWords {
 
     private static boolean isAbecedarianWord(String word) {
         //  the link provided in the instructiosn to this says that .compareToIgnoreCase means: Compares two strings lexicographically, ignoring case differences. This method returns an integer whose sign is that of calling compareTo with normalized versions of the strings where case differences have been eliminated by calling Character.toLowerCase(Character.toUpperCase(character)) on each character.
-        word = word.compareToIgnoreCase();
+        word = word.compareToIgnoreCase(string);
 
             for (int i = 0; i < word.length() - 1; i++) {
             // Compare each pair of characters using the ignore case thing 

@@ -1,33 +1,37 @@
 public class pen{
-    public class Pen {
-
-    static String inkColor = "black";
-    static String penColor = "pink";
+   
+    static String colorOfInk = "blue";
+    static String colorOfPen = "pink";
     static int inkRemaining = 5;
-   // static String words = "hello hello hello ";
-    //static String cap = "on";
-    //static String Type = "Clickey"; 
-    static Boolean clickey = false;
-    static Boolean cap = true;
+    static Boolean capOrClickey = true;
 
-    public static void main(String args[]) {}
+    public static void main(String[] args) {}
 
     public static void inkRemaining(){
-        System.out.println("The amount of ink remaining in this pen is " + inkRemaining + "mL.");
+        System.out.println("The amount of ink remaining in this pen is " + inkRemaining + " mL.");
     }
+
     public static void capOff(){
-        if (cap = true){
-            System.out.println("This is a cap ");
+        System.out.println("The cap on this pen is off so you can write.");
+    }
+
+    public static void colorPen(){
+        System.out.println("The color of this pen is " + colorOfPen);
+    }
+
+    public static void colorPensInk(){
+        System.out.println("The color of this pen's ink is " + colorOfInk);
+    }
+
+    public static void capOrClickey(){
+        if (capOrClickey = true){
+            System.out.println("you acn use this pen because the cap is off");
         }
-
-
-        System.out.println("This pen does not have a cap, it is a " + cap + " pen.");
+        else if(capOrClickey = false ){
+            System.out.println("This pen is a cap pen so no, you can write with it .");
     }
-    public static void clickedOut(){
-        if (clickey = false){
-        System.out.println("The pen is not a clickey pen because it has a cap. ");
     }
-
-   // public static void capOff(String newCapMode){
-     //   cap = newCapMode()
-    //}
+    public static void wordsToWrite(){
+        System.out.println("this pen can write ");
+    }
+}
