@@ -3,15 +3,16 @@ import java.util.Scanner;
 public class ZodiacCalendarOne {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        String name = "";
         System.out.println("What's your name: ");
-        String name = scan.next();
+        name = scan.nextLine();
         System.out.println("What's your birth year: ");
         int year = scan.nextInt();
         scan.close();
-        zodiacMethod(year);
+        zodiacMethod(year, name);
     }
 
-    public static void zodiacMethod(int year) { // honestly pretty simple from here on out, just set up if statments (use == not =) to set it so each zodiac animal has its correlating years using or || ) 
+    public static void zodiacMethod(int year, String name) { // honestly pretty simple from here on out, just set up if statments (use == not =) to set it so each zodiac animal has its correlating years using or || ) 
         if (year >= 1970 && year <= 2040) { // and every year after the first row you just +1 to the number in the previous column OR just add twelve years to the first date in the row ...so you dont even haev to look at a zodiac calendar once u have the first if statment done u jsut go off of that until every year has been hit- super simple just a bunch of lines of code tho 
             if (year == 1972 || year == 1984 || year == 1996 || year == 2008 || year == 2020 || year == 2032) {
                 System.out.println("Your birth year on the zodiac calendar is a rat!");

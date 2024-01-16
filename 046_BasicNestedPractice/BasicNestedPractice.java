@@ -32,3 +32,4 @@ public class BasicNestedPractice {
         scan.close();
     }
 }
+
