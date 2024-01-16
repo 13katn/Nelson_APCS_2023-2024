@@ -25,7 +25,7 @@ public class pen{
 
     public static void capOrClickey(){
         if (capOrClickey = true){
-            System.out.println("you acn use this pen because the cap is off");
+            System.out.println("you can use this pen because the cap is off");
         }
         else if(capOrClickey = false ){
             System.out.println("This pen is a cap pen so no, you can write with it .");
