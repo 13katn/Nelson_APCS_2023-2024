@@ -22,7 +22,11 @@ public class shirt{
     }
  }
 
+/*
 
+0/5 incomplete
+
+*/
 
 //selfDescription()
 //cleanStatus()

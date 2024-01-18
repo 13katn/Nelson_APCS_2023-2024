@@ -9,7 +9,16 @@ public class LoopYourName
         // my comment is so in depth becuase i wathced the video and i understand it now but feel like id forget if i came back t this in a month 
         {
             System.out.println("My name is: ");
-            System.out.print(MyName.substring(i,i+1));
+            System.out.println(MyName.substring(i,i+1));
         }
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

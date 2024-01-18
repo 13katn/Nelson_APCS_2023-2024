@@ -6,3 +6,11 @@ public class HelloWordButAMethod{
         helloWorld(); //  calls the hello World method
     }
 }
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

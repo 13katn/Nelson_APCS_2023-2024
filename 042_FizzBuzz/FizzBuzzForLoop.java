@@ -29,4 +29,13 @@ public class FizzBuzzForLoop
         }
     }
 }
-   
+
+/*
+
+1/1 - Compiles
+0/1 - Content
+-Doesn't print fizzbuzz on 15.
+1/1 - Formatting
+1/1 - Comments
+
+*/

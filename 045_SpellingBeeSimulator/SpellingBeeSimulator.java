@@ -21,10 +21,12 @@ public class SpellingBeeSimulator {
     }
 }
 
-       
+/*
 
+1/1 - Compiles
+0/1 - Content
+-Should be all on the same line, this looks rough as is.
+1/1 - Formatting
+1/1 - Comments
 
-
-
-
-
+*/
