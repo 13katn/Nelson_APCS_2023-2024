@@ -1,4 +1,4 @@
-public class FindAShirtUno{
+public class shirt{
     public class Shirt {
 
     static String Color = "white";
@@ -11,8 +11,13 @@ public class FindAShirtUno{
     public static void selfDescription(){
         System.out.println("This is a " + Color + " " + Type + " shirt that is made by " + brand + ".");
     }
-    public static void cleanStatus(){
-        
+    public static void isClean(){
+        if(isClean = true ){
+            System.out.println("This shirt is clean.");
+        }
+        else if(isClean = false){
+            System.out.println("This shirt is dirty.");
+        }
     }
     }
  }
@@ -22,3 +27,6 @@ public class FindAShirtUno{
 //selfDescription()
 //cleanStatus()
 //fold()
+
+
+

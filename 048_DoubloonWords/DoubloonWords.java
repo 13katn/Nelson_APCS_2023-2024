@@ -1,37 +1,36 @@
-import.java.util.Scanner;
+import java.util.Scanner;
 public class DoubloonWords
 {
     public static void main(String[]args)
     {
         Scanner scan = new Scanner(System.in);
-        String wordChoice = " ";
-        
-        System.out.println("Pick a word to see of its a buobloon word: ");
-        String wordChoice = scan.nextLine();
-        int length = word.length();
+        System.out.println("write a word: ");
+        String word = scan.nextLine();
+        String secondWord = word.toLowerCase();
+        int length = secondWord.length();
         int count = 0;
+        int secondCount = 0;
+        scan.close();
 
-        if(length > 1)
+        for(int i = 0; i <length; i++)
         {
-            for (int i = 0; i< length - 1; i ++)
+            char letter = secondWord.charAt(i);
+            for ( int j = 0; j<length; j++)
             {
-                for(int j = i + 1; j< length; j ++ )
-                { 
-                    if(str.charAt(i) == str.charAt(j)) // i know were not supposed to use charAt yet as u sais in the videos but we could not fihure this one out with out it
-                    {
-                        count++;
-                    }
+                char secondLetter = secondWord.charAt(j); // this (char.at) returns the character at the specified index in a string
+                if (letter == secondLetter)
+                {
+                    count++;
                 }
+            }   // setting responses 
+            if (count == 2)
+            {
+                System.out.println("This word is doubloon word");
             }
-        }
-        // setting responses 
-        if (count > 0)
-        {
-            System.out.println("the word you entered is not a duobloon word");
-        }
-        else if (length == 1 )
-        {
-            System.out.println("This is a doubloon word.")
+            else
+            {
+                System.out.println("The word is not a doubloon word sorry");
+            }
         }
     }
 }
