@@ -5,7 +5,7 @@ public class AbecedarianWords {
         // Prompt the user to enter a word
         Scanner scan = new Scanner(System.in);
         System.out.print("pick a word; ");
-        String wordPicked = scan.nextLine(); \
+        String wordPicked = scan.nextLine();
         scan.close();
         boolean isAbecedarianWord = isAbecedarianWord(wordPicked); // boolean because were asnering a true or false question 
 
@@ -31,3 +31,15 @@ public class AbecedarianWords {
         // this oen was so confsuign with the whole reutrn thing especaily the rretun true and return false and im not sure if this is even in the correct place for it either but ill take whatever points i can get on this one 
     }
 }
+
+/*
+
+Missing some puncuation and doesn't compile. Can't veify that it works. The formatting is pretty rough,
+but I'm going to look past that for now.
+
+0/1 - Compiles
+0/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
