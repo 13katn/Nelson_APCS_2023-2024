@@ -20,7 +20,7 @@ public class DoubloonWords
                 char secondLetter = secondWord.charAt(j); // this (char.at) returns the character at the specified index in a string
                 if (letter == secondLetter)
                 {
-                    count++;
+                    secondCount++;
                 }
             }   // setting responses 
             if (count == 2)

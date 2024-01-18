@@ -1,17 +1,16 @@
 public class shirt{
-    public class Shirt {
 
-    static String Color = "white";
+    static String color = "white";
     static String brand = "Hanes";
     static Boolean isClean = true;
-    static String Type = "V-neck"; 
+    static String type = "V-neck"; 
 
     public static void main(String args[]) {}
 
     public static void selfDescription(){
-        System.out.println("This is a " + Color + " " + Type + " shirt that is made by " + brand + ".");
+        System.out.println("This is a " + color + " " + type + " shirt that is made by " + brand + ".");
     }
-    public static void isClean(){
+    public static void cleanStatus(){
         if(isClean = true ){
             System.out.println("This shirt is clean.");
         }
@@ -19,8 +18,11 @@ public class shirt{
             System.out.println("This shirt is dirty.");
         }
     }
+    public static void fold(){
+        System.out.println("the shirt is folded");
     }
- }
+    }
+ 
 
 /*
 
