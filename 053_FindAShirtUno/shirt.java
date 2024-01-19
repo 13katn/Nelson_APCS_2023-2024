@@ -22,17 +22,3 @@ public class shirt{
         System.out.println("the shirt is folded");
     }
     }
- 
-
-/*
-
-0/5 incomplete
-
-*/
-
-//selfDescription()
-//cleanStatus()
-//fold()
-
-
-
