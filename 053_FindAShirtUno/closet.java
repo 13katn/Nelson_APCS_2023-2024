@@ -9,5 +9,3 @@ public class closet {
         }
     }
 
-
-    // 40 and 37
