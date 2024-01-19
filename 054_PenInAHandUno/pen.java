@@ -35,3 +35,6 @@ public class pen{
         System.out.println("this pen can write ");
     }
 }
+
+
+/// power attack, blackjack, abecedarian, shirt java, doubloon

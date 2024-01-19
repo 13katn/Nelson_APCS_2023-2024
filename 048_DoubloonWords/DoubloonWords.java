@@ -34,6 +34,7 @@ public class DoubloonWords
         }
     }
 }
+// hte onl issue is if its not a doubloon word itl print out "Thisis not a boudloon" as many times as there are letters in the word.
 
 /*
 
