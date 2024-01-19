@@ -10,7 +10,8 @@ public class shirt{
     public static void selfDescription(){
         System.out.println("This is a " + color + " " + type + " shirt that is made by " + brand + ".");
     }
-    public static void cleanStatus(){
+    public static void cleanStatus(){ // if statement for the boolean correlating to isClean . 
+        // clean is true fasle is dirty and gives correspondgn answer in if statment 
         if(isClean = true ){
             System.out.println("This shirt is clean.");
         }

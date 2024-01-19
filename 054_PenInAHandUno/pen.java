@@ -23,8 +23,8 @@ public class pen{
         System.out.println("The color of this pen's ink is " + colorOfInk);
     }
 
-    public static void capOrClickey(){
-        if (capOrClickey = true){
+    public static void capOrClickey(){ // cap or clickey is a boolean, this sets it so that true and false means cap or clcikey, and gives a resposne to if you can taek a cap off or not 
+        if (capOrClickey = true){ // will return on based off what capOrClickey boolean is 
             System.out.println("you can use this pen because the cap is off");
         }
         else if(capOrClickey = false ){
