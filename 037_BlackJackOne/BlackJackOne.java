@@ -158,3 +158,13 @@ public class BlackJackOne {
     }
  }
 }
+
+/*
+
+1/1 - Compiles
+0/1 - Content
+-Closing too quick.
+1/1 - Formatting
+1/1 - Comments
+
+*/

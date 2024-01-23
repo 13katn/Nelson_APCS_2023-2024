@@ -31,11 +31,8 @@ public class AbecedarianWords {
 
 /*
 
-Missing some puncuation and doesn't compile. Can't veify that it works. The formatting is pretty rough,
-but I'm going to look past that for now.
-
-0/1 - Compiles
-0/1 - Content
+1/1 - Compiles
+1/1 - Content
 1/1 - Formatting
 1/1 - Comments
 
