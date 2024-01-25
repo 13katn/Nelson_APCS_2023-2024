@@ -21,8 +21,7 @@ public class StaticMenu {
     ItemThree.description = "Flour, butter, milk, eggs, vanilla, oreos";
     ItemThree.printInfo();
 
-    //System.out.println("***");
-
+    // initialized variables and now calling to print in method 
     ItemOne.printInfo();
     ItemTwo.printInfo();
   }
