@@ -1,25 +1,26 @@
 public class StaticShoes {
-    public static void main(String[] args){
+    public static void main(String[] args){}
     public static String shoeBrand;
     public static Double shoeSize;
     public static String shoeColor;
+    // only put public static above becayse that is what is declaring the variable 
 
     public static void Shoes(){
-        public static shoeBrand = "Nike";
+        shoeBrand = "Nike";
         public static shoeSize = 9.5;
         public static shoeColor = "Red";
     }
 
     public static void Shoes(String shoeBrand){
-        public static this.shoeBrand= shoeBrand;
-        public static shoeSize = 9.5;
-        public static shoeColor = "Red";
+        this.shoeBrand= shoeBrand;
+        shoeSize = 9.5;
+        shoeColor = "Red";
     }
 
     public static void Shoes(Double shoeSize, String shoeBrand, String ShoeColor){
-        public static this.shoeBrand=shoeBrand;
-        public static this.shoeColor= shoeColor;
-        public static this.shoeSize= shoeSize; 
+        this.shoeBrand=shoeBrand;
+        this.shoeColor= shoeColor;
+        this.shoeSize= shoeSize; 
     }
 
     public static void main(String[] args){}
