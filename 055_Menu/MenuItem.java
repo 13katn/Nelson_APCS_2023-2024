@@ -9,3 +9,9 @@ public class MenuItem {
         System.out.println("This food is: " + description);
     }
 }
+
+
+
+
+// static menu item = static shoe 
+// static shoe rack = static menu 
