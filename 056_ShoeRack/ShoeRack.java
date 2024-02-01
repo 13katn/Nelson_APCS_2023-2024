@@ -11,6 +11,7 @@ public class ShoeRack {
     ShoeOne.shoeSize = 9;
     ShoeOne.printInfo();
 
+  // when its not in static it prints all and not just the defualt liek static does 
 // item two 
     ShoeTwo.shoeBrand= "converse";
     ShoeTwo.shoeColor = "Black";

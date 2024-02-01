@@ -1,24 +1,25 @@
-public class FindAShirtDos{
+public class Shirt{
     String shirtColor;
     String shirtType;
     String shirtBrand;
     Boolean isClean;
 
-    public FindAShirtDos(){
+// recreating the default-- closed parenthesis with nothign in it makes it the default-- once we add constructers it gets rid of the default 
+    public Shirt(){
         isClean = true; 
         shirtType = "V-Neck";
         shirtBrand = "Hanes";
         shirtColor = "White"; 
     }
 
-    public FindAShirtDos(String brand){
+    public Shirt(String brand){
         isClean = true;
         shirtType = "V-Neck";
         this.shirtBrand = shirtBrand;
         shirtColor = "White";
     }
 
-    public FindAShirtDos(boolean isClean, String shirtType, String shirtBrand, String shirtColor){
+    public Shirt(boolean isClean, String shirtType, String shirtBrand, String shirtColor){
         this.isClean = isClean; 
         this.shirtType = shirtType;
         this.shirtBrand = shirtBrand;
@@ -29,7 +30,10 @@ public class FindAShirtDos{
     public void selfDescription() {
         System.out.println("This shirt is a" + shirtColor + " " + shirtBrand + " " + shirtType + " that is clean");
     }
-
+    public static void fold(){
+        System.out.println("the shirt is folded");
+    } 
+    
     public void shirtClean(){
         if(!isClean){
             isClean = true;
