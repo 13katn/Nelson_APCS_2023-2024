@@ -4,22 +4,20 @@ public class Closet {
         shirtOne.selfDescription();
         shirtOne.shirtClean(); // or isClean?
         shirtOne.fold();
-
-        Shirt shirtTwo = new Shirt("pink", "threads", "longsleeve", true);
+// order is isClean,type,brand,color
+        Shirt shirtTwo = new Shirt(true, "longsleeve", "threads", "Pink");
         shirtTwo.selfDescription();
-        shirtTwo.shirtClean(); // or isClean?
+        shirtTwo.shirtClean(); 
         shirtTwo.fold();
 
-        Shirt shirtThree = new Shirt("black", "pacsun", "cropped", false);
+        Shirt shirtThree = new Shirt(false, "shortsleeve", "urban outfitters", "black");
         shirtThree.selfDescription();
-        shirtThree.shirtClean(); // or isClean?
+        shirtThree.shirtClean(); 
         shirtThree.fold();
 
-        Shirt shirtFour= new Shirt("white", "urban", "loose", true);
+        Shirt shirtFour= new Shirt(true, "urban", "loose", "brown");
         shirtFour.selfDescription();
-        shirtFour.shirtClean(); // or isClean?
+        shirtFour.shirtClean(); 
         shirtFour.fold();
-
-
     }
 }

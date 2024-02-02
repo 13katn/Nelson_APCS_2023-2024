@@ -12,12 +12,12 @@ public class Shirt{
         shirtColor = "White"; 
     }
 
-    public Shirt(String brand){
-        isClean = true;
-        shirtType = "V-Neck";
-        this.shirtBrand = shirtBrand;
-        shirtColor = "White";
-    }
+    // public Shirt(String brand){
+    //     isClean = true;
+    //     shirtType = "V-Neck";
+    //     this.shirtBrand = shirtBrand;
+    //     shirtColor = "White";
+    // }
 
     public Shirt(boolean isClean, String shirtType, String shirtBrand, String shirtColor){
         this.isClean = isClean; 
