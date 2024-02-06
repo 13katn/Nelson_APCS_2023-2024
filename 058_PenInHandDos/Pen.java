@@ -29,13 +29,13 @@ public class Pen{
         System.out.println("the shirt is folded");
     } 
     
-    public void shirtClean(){
-        if(!isClean){
-            isClean = true;
-            System.out.println("This shirt is clean");
+    public void capOrClickey(){
+        if(!capOrClickeyn){
+            capOrClickey = true;
+            System.out.println("This is a clickey pen, you cannot take the cap off");
         }
         else{
-            System.out.println("ew this shirt is dirty");
+            System.out.println("the pen is clicked out ");
         }
         // trying this instead of using an If statement for my boolean is clean 
     }
