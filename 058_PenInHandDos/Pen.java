@@ -1,4 +1,4 @@
-// is shirt 
+
 public class Pen{
     String colorOfInk;
     String colorOfPen;
@@ -13,7 +13,7 @@ public class Pen{
         capOrClickey = true; 
     }
 
-    public Shirt(boolean capOrClickey, String inkColor, String penColor, int inkRemaining){
+    public Pen(boolean capOrClickey, String inkColor, String penColor, int inkRemaining){
         this.colorOfInk = colorOfInk; 
         this.colorOfPen = colorOfPen;
         this.inkRemaining = inkRemaining;
@@ -25,19 +25,18 @@ public class Pen{
     public void selfDescription() {
         System.out.println("This is a " + colorOfPen + " and the ink is " + colorOfInk + " " + " that is a cap");
     }
-    public static void fold(){
-        System.out.println("the shirt is folded");
+    public static void wordsToWrite(){
+        System.out.println("This pen can write!");
     } 
     
     public void capOrClickey(){
-        if(!capOrClickeyn){
+        if(!capOrClickey){
             capOrClickey = true;
             System.out.println("This is a clickey pen, you cannot take the cap off");
         }
         else{
             System.out.println("the pen is clicked out ");
         }
-        // trying this instead of using an If statement for my boolean is clean 
     }
 
 }
