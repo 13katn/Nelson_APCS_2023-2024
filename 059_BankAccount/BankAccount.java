@@ -23,4 +23,20 @@ public class BankAccount {
        {
         System.out.println("The current amount in your account is " + currentBalance);
        }
+
+       public void updateBalance()
+       {
+        System.out.println();
+       }
+       public void applyInterest()
+       {
+        System.out.println();
+       }
+       public void updateOverdraft()
+       {
+        System.out.println();
+       }
+
+
+
 }
