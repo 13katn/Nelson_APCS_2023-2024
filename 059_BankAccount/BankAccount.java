@@ -26,17 +26,22 @@ public class BankAccount {
 
        public void updateBalance()
        {
-        System.out.println();
+        System.out.println("Your updateed balance is " + currentBalance);
        }
        public void applyInterest()
        {
-        System.out.println();
+        double newApplyInterest = (intrestRate / 100) * currentBalance; // 100 bc percent to decimal
+        System.out.println("The applied interest amount for this user is " + newApplyInterest);
        }
+       // if statement so it only warns if you are actually over 
        public void updateOverdraft()
        {
-        System.out.println();
-       }
-
-
-
+        if (currentBalance < 0){
+          isOverDraft = true;
+          System.out.println("watch out your account is overdrafted");
+        }
+        else{
+          isOverDraft = false;
+        }
+      }
 }
