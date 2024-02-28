@@ -2,8 +2,8 @@ public class Phone
   {
     private boolean isOn;
     private String connectionType;
-    private int charge;
-    private String charge;
+    private int chargeInt;
+    private String chargeString;
     private String phoneBrand;
     private String phoneModel;
 
@@ -11,7 +11,7 @@ public class Phone
     {
       this.isOn = isOn;
       this.connectionType = connectionType;
-      this.charge= charge;
+      this.chargeString= chargeString;
       this.color = color;
       this.phoneBrand = phoneBrand;
       this.phoneModel = phoneModel;
@@ -20,7 +20,7 @@ public class Phone
         {
           isOn=true;
           connectionType="lightining";
-          charge=59;
+          chargeInt=59;
           color="Pink";
           phoneBrand="Apple";
           phoneModel="14 Pro Max";
@@ -40,13 +40,13 @@ public class Phone
 
       public void charging()
     {
-      if(charge<100) // if statemetns to correlate to percentage notifciation
+      if(chargeInt<100) // if statemetns to correlate to percentage notifciation
       {
         System.out.println("your phones now charging");
       }
       else
       {
-        System.out.println("your ophones at 100%");
+        System.out.println("your phones at 100%");
       }
     }
 

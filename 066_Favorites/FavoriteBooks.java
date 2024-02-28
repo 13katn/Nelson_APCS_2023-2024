@@ -11,9 +11,7 @@ public class FavoriteBooks {
             System.out.println(book);
         }
     }
-}
-// prints out my sentences 
-public class Main {
+    // do it all in main 
     public static void main(String[] args) {
         FavoriteMovies favoriteMovies = new FavoriteMovies();
         favoriteMovies.printMovies();
