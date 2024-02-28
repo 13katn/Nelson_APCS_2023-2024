@@ -27,8 +27,7 @@ class Hands {
             System.out.println("No compatible cable found for charging the iPad.");
         }
     }
-}
-public class Main {
+
     public static void main(String[] args) {
         ChargingCable usbMicroCable = new ChargingCable("BrandA", 3, "USB Micro");
         ChargingCable usbCCable = new ChargingCable("BrandB", 5, "USB-C");
@@ -38,3 +37,12 @@ public class Main {
         hands.tryCharging();
     }
 }
+/*
+
+2/3 - Compile/Content
+-I had to make a few adjustments to make this work, including adding main to both your other files so I'll cover it all
+by knocking off 1 point.
+1/1 - Formatting
+1/1 - Comments
+
+*/

@@ -32,4 +32,5 @@
             public void charging() {
                 System.out.println("your device is being connected with the " + connectionType + " type and is charging");
             }
+            public static void main(String[] args) {}
         }
