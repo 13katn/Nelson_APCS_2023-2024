@@ -4,6 +4,7 @@ public class Hand
     {
       Phone iPhone= new Phone(true, "lightining", 50.1, "15 S", "blue", "samsung");
       iPhone.onOrOff();
+      iPhone.typeCharge();
       iPhone.charging();
       iPhone.description();
       iPhone.takePhoto();
