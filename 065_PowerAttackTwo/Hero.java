@@ -1,13 +1,3 @@
-// public class Hero
-// {
-//     public static void main(String[] args)
-//     {
-//     String heroName= "Finn the human";
-//     int heroHealth = 10;
-//     int heroArmorClass= 5;
-//     int weaponDamage= (int)((Math.random()*(6-4+1))+ 4);
-//     }
-// }
 public class Hero {
     String heroName;
     int heroHealth;
@@ -36,3 +26,4 @@ public class Hero {
         }
       }
     }
+    // wasnt able to finish this tri but its a start 
