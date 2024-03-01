@@ -12,4 +12,5 @@ public class FavoriteMovies {
             System.out.println(movie);
         }
     }
+    public static void main(String[] args) {}
 }

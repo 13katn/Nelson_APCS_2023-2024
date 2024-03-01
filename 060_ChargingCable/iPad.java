@@ -18,4 +18,6 @@ class iPad {
     public void setCurrentCharge(int currentCharge) {
         this.currentCharge = currentCharge;
     }
+
+    public static void main(String[] args) {}
 }

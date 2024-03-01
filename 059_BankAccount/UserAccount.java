@@ -14,3 +14,12 @@ public class UserAccount
 // essentially just bank data 
     }
 }
+
+/*
+
+1/3 - Compile/Content
+-On the road, but not quite there yet. Still working on it?
+1/1 - Formatting
+1/1 - Comments
+
+*/
