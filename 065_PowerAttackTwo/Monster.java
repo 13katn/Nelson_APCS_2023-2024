@@ -16,4 +16,4 @@ public class Monster {
         this.monsterArmorClass= monsterArmorClass;
         this.monsterWeaponDamage=monsterWeaponDamage;
        }
-       
+}
