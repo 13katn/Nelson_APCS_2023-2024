@@ -6,16 +6,16 @@ public class GasPriceTracker{
         this.gasPrice = gasPrice;
     }
     public String getGasName(){ // getters
-        return this.gasName // returns the kind of gas yoyr getting 
+        return this.gasName ;// returns the kind of gas yoyr getting 
     }
-    public void setGasName(){ // setters 
-        this.gasName = newGasName
+    public void setGasName(String newGasName){ // setters 
+        this.gasName = newGasName;
     }
     public double getGasPrice(){ // getters
-        return this.gasPrice
+        return this.gasPrice;
     }
     public void setGasPrice(double newGasPrice){
-        this.gasPrice = newGasPrice
+        this.gasPrice = newGasPrice;
     }
     public void gasNameAndPrice() // prints out orignal price 
     {
@@ -26,4 +26,6 @@ public class GasPriceTracker{
     {
         System.out.println("The gas just went up ten cents, it is now " + (newGasPrice + gasPrice));
     }
+    public static void main(String[] args){} // adds main to it 
 }
+// i dont understand why this doesnt run i got it on my home computyer and soent so muhc time on this one 
