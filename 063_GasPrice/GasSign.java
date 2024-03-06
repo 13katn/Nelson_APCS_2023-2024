@@ -15,3 +15,13 @@ plus.gasWentUpTenCent(.10);
 }
 }
 // i dont understand why this doesnt run i got it on my home computyer and soent so muhc time on this one but ill just try to take whatever poitns i can i guess but still just dont undersatnd why 
+
+/*
+
+2/3 - Compile/Content
+I think your having some issues with type here...
+1/1 - Formatting
+-I'm going to look the other way on the end of this one, but it is ROUGH.
+1/1 - Comments
+
+*/
