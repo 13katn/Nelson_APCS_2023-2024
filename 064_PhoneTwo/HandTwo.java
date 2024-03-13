@@ -12,12 +12,3 @@ public class HandTwo
     System.out.println(iPhone);
   }
 }
-
-/*
-
-3/3 - Compile/Content
-1/1 - Formatting
-0/1 - Comments
-
-Could been 5 with comments.
-*/

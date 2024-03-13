@@ -14,8 +14,7 @@ public class PhoneTwo
     this.color = color;
     this.iPhoneBrand = iPhoneBrand;
   }
-  public PhoneTwo()
-    {
+  public PhoneTwo(){
       isOn=true;
       connectionTypeIPhone="lightining";
       currentCharge=59;
