@@ -4,7 +4,7 @@ public class FavoriteBooksTwo {
         ArrayList<String> fb = new ArrayList<String>();
         fb.add(new String("lapvona"));
         fb.add(new String("life of pi"));
-        fb.add(new String("teh catcher in the rye"));
+        fb.add(new String("the catcher in the rye"));
         //for loop tp call it back
         System.out.println("my favorite books are: "); // outside the foreloop so it only prints once 
         for (int i = 0; i < fb.size(); i++){
