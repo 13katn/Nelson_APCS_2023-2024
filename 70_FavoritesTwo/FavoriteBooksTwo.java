@@ -6,8 +6,9 @@ public class FavoriteBooksTwo {
         fb.add(new String("life of pi"));
         fb.add(new String("teh catcher in the rye"));
         //for loop tp call it back
+        System.out.println("my favorite books are: "); // outside the foreloop so it only prints once 
         for (int i = 0; i < fb.size(); i++){
-            System.out.println(" my favoite books are " + fb.get(i)); // get not a setter becasue were not chaigning the lsit at all 
+            System.out.println(fb.get(i)); // get not a setter becasue were not chaigning the lsit at all 
         }
     }
 }

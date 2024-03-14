@@ -6,8 +6,9 @@ public class FavoriteTVShowsTwo {
         ftv.add(new String("adventure time"));
         ftv.add(new String("regular show or the simpsons its tied "));
         //for loop tp call it back
+        System.out.println("my favorite tv shows are: "); // outside the foreloop so it only prints once 
         for (int i = 0; i < ftv.size(); i++){
-            System.out.println(" my favoite tv shows are " + ftv.get(i)); // get not a setter becasue were not chaigning the lsit at all 
+            System.out.println(ftv.get(i)); // get not a setter becasue were not chaigning the lsit at all 
         }
     }
 }
