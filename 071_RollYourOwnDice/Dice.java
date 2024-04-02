@@ -1,27 +1,28 @@
+import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
-class Die{
-    int dots,roll;
-    Random number = new Random();
+class Dice {
+    private final int numberSides; // shows number of sides of the dice 
+    private int currentVal; // shows the value that the dice has currently
+    private final Random random; // rand num for ROLLING the dice 
 
-    public Die(){
-        int dots = number.nextInt(6)+1 ;
+    // sets total num of sides thru constructor 
+    public Dice(int numberSides) {
+        this.numberSides = numberSides;
+        this.random = new Random();
+        roll(); // Rolls the dice after i created it in the last block
     }
 
-    public void roll(){
-        roll = number.nextInt(dots)+1;
+// this is the current value accessable thru the getter 
+    public int getCurrentVal() {
+        return currentVal;
     }
 
-    public int getDots(){
-        return roll;
-    }
-
-}
-
-public class RollYourOwnDice{
-    public static void main (String args[]){
-        Die die = new Die();
-        System.out.println("you rolleda  "+die.getDots());
-
+// method that rolls nad returns (pretty efficiently i think?)
+    public int roll() {
+        // rand number from 1-num of sides dice has 
+        currentVal = random.nextInt(numberSides) + 1;
+        return currentVal; 
     }
 }
