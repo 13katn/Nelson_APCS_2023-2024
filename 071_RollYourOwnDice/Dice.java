@@ -1,21 +1,19 @@
-public class Dice{
-    int numberSides;
+// checked 
+class Dice {
+    int numSides;
     int currentValue;
-    int random;
+// in constructor 
+    Dice(int numSides) { // setters
+        this.numSides = numSides;
+        roll(); 
+    }
 
-   // sets total num of sides thru constructor
-   public Dice(int numberSides) {
-       this.numberSides = numberSides;
-       this.random = new Random();
-       roll(); // Rolls the dice after i created it in the last block
-   }
-   // this is the current value accessable thru the getter
-   public int getCurrentVal() {
-       return currentVal;
-   }
-    public int roll() {
-       // rand number from 1-num of sides dice has
-       currentVal = random.nextInt(numberSides) + 1;
-       return currentVal;
-   }
+    int getCurrentValue() { // getters 
+        return currentValue;
+    }
+    int roll() { //method 
+        currentValue = (int) (Math.random() * numSides) + 1; // updated current val 
+        return currentValue;
+    }
+    public static void main(String[]args){}
 }
