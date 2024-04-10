@@ -11,9 +11,8 @@ class Dice {
     int getCurrentValue() { // getters 
         return currentValue;
     }
-    int roll() { //method 
+    public void int roll() { //method 
         currentValue = (int) (Math.random() * numSides) + 1; // updated current val 
-        return currentValue;
     }
     public static void main(String[]args){}
 }
