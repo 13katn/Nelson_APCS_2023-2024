@@ -4,9 +4,8 @@ public Transaction(String itemName, String itemDescription, double itemCost, dou
         this.itemCost= itemCost;
         this.itemSalePrice= itemSalePrice;
         this.itemProfit= itemProfit;
-       // this.itemMargin= (itemSalePrice- itemCost)/itemSalePrice;
+       // how to calcualte margin --> (itemSalePrice- itemCost)/itemSalePrice;
     }
-
     public  double itemMarginCalculator(){
         itemMargin= (itemSalePrice- itemCost)/itemSalePrice;
         System.out.println("The item Margin is " + itemMargin);
