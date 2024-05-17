@@ -15,3 +15,15 @@ public class AnalysisWorkBench {
         System.out.println("Sum of total nums " + analysis.sumAllNumbers(numberList));
     }
 }
+
+
+/*
+
+1/3 - Compile/Content
+-Keep going.
+1/1 - Formatting
+1/1 - Comments
+
+Late - 1
+
+*/

@@ -6,3 +6,5 @@ public class SelectionSortSomeIntegers {
     scan.close();
     }
 }
+
+/* 0/5 incomplete */
