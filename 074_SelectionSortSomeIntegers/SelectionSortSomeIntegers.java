@@ -27,7 +27,7 @@ public class RandomIntegersSort {
            System.out.print(num + " ");
        }
    }
-//method for selection sort
+
    public static void selectionSort(int[] arr) {
    // bellow just loops through until finds corect
        for (int i = 0; i < arr.length - 1; i++) {
