@@ -1,17 +1,17 @@
-class Pen {
-public static void main(String [] args){
-String inkColor;
-   public Pen(String type, String inkColor) { 
-       this.inkColor = inkColor;
+public class Desk {
+   public static void main(String[] args) {
+       Pen pen = new Pen("ballpoint pen", "pink");
+       Pencil pencil = new Pencil("mechanical", "grey");
+
+
+       System.out.println(pen.inkColor);
+       pen.click();
+       System.out.println(pencil.leadType);
+       pencil.sharpen();
+
+
    }
 }
-}
-class Pencil {
-int pencilBrand;
-public Pencil(String type, int pencilBrand) {
-   this.pencilBrand = pencilBrand;
-   }
-public void sharpen() {
-   System.out.println("Pencil is sharpened.");
-   }
+
+
 }
